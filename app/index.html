@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Conway's Game of Life</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <main class="app">
+    <a class="app__link" href="https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0_%C2%AB%D0%96%D0%B8%D0%B7%D0%BD%D1%8C%C2%BB"><h1 class="app__title">Conway's Game of Life</h1></a>
+    <div class="app__grid grid"></div>
+
+    <div class="grid__controls controls-grid">
+      <button class="controls-grid__control controls-grid__control--play-button material-icons">play_arrow</button>
+      <button class="controls-grid__control controls-grid__control--reset-button material-icons">replay</button>
+      <button class="controls-grid__control controls-grid__control--randomize-button material-icons">transform</button>
+      <button class="controls-grid__control controls-grid__control--clear-button material-icons">clear</button>
+      <input class="controls-grid__control controls-grid__control--speed-slider material-icons" type="range" min="0" max="900"
+        step="100" value="0">
+    </div>
+  </main>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
